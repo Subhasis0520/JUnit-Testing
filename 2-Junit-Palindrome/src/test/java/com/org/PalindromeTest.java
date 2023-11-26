@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 public class PalindromeTest {
 
 	@ParameterizedTest
-	@ValueSource(strings = {"madam", "radar","racecar","malayalam","subha"})
+	@ValueSource(strings = {"madam", "radar","racecar","malayalam"})
 	public void testPalindrome(String s) {
 		PalindromeCheck pc = new PalindromeCheck();
 		
